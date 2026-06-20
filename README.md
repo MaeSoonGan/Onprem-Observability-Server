@@ -21,15 +21,10 @@
 | 구분              | 내용          |
 | --------------- | ----------- |
 | Hypervisor      | VMware ESXi |
-| VM Name         | 입력 예정       |
-| OS              | 입력 예정       |
-| vCPU            | 입력 예정       |
-| RAM             | 입력 예정       |
-| Disk            | 입력 예정       |
-| Network Adapter | 입력 예정       |
-| IP Address      | 입력 예정       |
-| Gateway         | 입력 예정       |
-| DNS             | 입력 예정       |
+| OS              | ESXi       |
+| vCPU            | 16       |
+| RAM             | 20GB      |
+| Disk            | 250GB       |
 
 <br />
 
@@ -114,52 +109,27 @@
 
 * [VyOS 라우터 구성](./docs/network/vyos-router.md)
 * [임시 NAT용 pfSense 구성](./docs/network/pfsense-nat.md)
-* [라우팅 설정](./docs/network/routing.md)
-* [방화벽 및 포트 설정](./docs/network/firewall-port.md)
 
 ### Metric 수집
 
-* [Prometheus 설치](./docs/prometheus/prometheus-install.md)
-* [Prometheus 설정](./docs/prometheus/prometheus-config.md)
-* [Scrape Target 구성](./docs/prometheus/scrape-target.md)
-* [Prometheus Rule 작성](./docs/prometheus/prometheus-rule.md)
+* [Prometheus-VM1](./docs/prometheus/prometheus-install.md)
 
 ### Log 수집
 
-* [Loki 설치](./docs/loki/loki-install.md)
-* [Loki 설정](./docs/loki/loki-config.md)
-* [Log 수집 Pipeline](./docs/loki/log-pipeline.md)
-* [LogQL 조회 예시](./docs/loki/logql.md)
+* [Loki-VM3](./docs/loki/loki-install.md)
 
 ### Trace 수집
 
-* [Tempo 설치](./docs/tempo/tempo-install.md)
-* [Tempo 설정](./docs/tempo/tempo-config.md)
-* [Trace 수집 Pipeline](./docs/tempo/trace-pipeline.md)
-* [Trace ID 기반 조회](./docs/tempo/trace-query.md)
+* [Tempo-VM3](./docs/tempo/tempo-install.md)
 
 ### Collector 구성
 
-* [Alloy 설치](./docs/alloy/alloy-install.md)
-* [Alloy 설정](./docs/alloy/alloy-config.md)
-* [Metric 수집 설정](./docs/alloy/alloy-metric.md)
-* [Log 수집 설정](./docs/alloy/alloy-log.md)
-* [Trace 수집 설정](./docs/alloy/alloy-trace.md)
+* [Alloy](./docs/alloy/alloy-install.md)
 
 ### Dashboard 구성
 
-* [Grafana 설치](./docs/grafana/grafana-install.md)
-* [Data Source 설정](./docs/grafana/datasource.md)
-* [Overview Dashboard](./docs/grafana/overview-dashboard.md)
-* [Main Server Dashboard](./docs/grafana/main-server-dashboard.md)
-* [DR Server Dashboard](./docs/grafana/dr-server-dashboard.md)
-* [Monitoring Server Dashboard](./docs/grafana/monitoring-server-dashboard.md)
-* [AWS/EKS Dashboard](./docs/grafana/aws-eks-dashboard.md)
+* [Grafana-VM1(./docs/grafana/grafana-install.md)
 
 ### Alert 구성
 
-* [Alertmanager 설치](./docs/alertmanager/alertmanager-install.md)
-* [Alertmanager 설정](./docs/alertmanager/alertmanager-config.md)
-* [Slack Webhook 연동](./docs/alertmanager/slack-webhook.md)
-* [장애 알림 Rule](./docs/alertmanager/alert-rule.md)
-* [알림 그룹화 및 중복 제거](./docs/alertmanager/alert-routing.md)
+* [Alertmanager-VM1](./docs/alertmanager/alertmanager-install.md)
