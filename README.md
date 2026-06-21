@@ -32,7 +32,7 @@
 
 ### Log 수집
 
-* [Loki-VM3](./docs/loki/loki-install.md)
+* [Loki-VM3](./loki.md)
 
 ### Trace 수집
 
