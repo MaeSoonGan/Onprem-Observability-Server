@@ -16,15 +16,45 @@
 
 <br />
 
-## 🖥️ 서버 사양
+## 📋 목차
 
-| 구분              | 내용          |
-| --------------- | ----------- |
-| Hypervisor      | VMware ESXi |
-| OS              | ESXi       |
-| vCPU            | 16       |
-| RAM             | 20GB      |
-| Disk            | 250GB       |
+### 기본 환경 구축
+* [기본 환경 구축](./basic-environment.md)
+
+### 네트워크 구성
+
+* [VyOS 라우터 구성](./docs/network/vyos-router.md)
+* [임시 NAT용 pfSense 구성](./docs/network/pfsense-nat.md)
+
+### Metric 수집
+
+* [Prometheus-VM1](./docs/prometheus/prometheus-install.md)
+
+### Log 수집
+
+* [Loki-VM3](./docs/loki/loki-install.md)
+
+### Trace 수집
+
+* [Tempo-VM3](./docs/tempo/tempo-install.md)
+
+### Collector 구성
+
+* [Alloy](./docs/alloy/alloy-install.md)
+
+### Dashboard 구성
+
+* [Grafana-VM1](./docs/grafana/grafana-install.md)
+
+### Alert 구성
+
+* [Alertmanager-VM1](./docs/alertmanager/alertmanager-install.md)
+
+</br>
+
+## 🏗️ Observability 서버 아키텍처
+<img width="1021" height="456" alt="image" src="https://github.com/user-attachments/assets/194bbcdb-6d26-473f-924a-739e887f9103" />
+
 
 <br />
 
@@ -43,11 +73,7 @@
 
 <br />
 
-## 🏗️ Observability 서버 아키텍처
-<img width="1021" height="456" alt="image" src="https://github.com/user-attachments/assets/194bbcdb-6d26-473f-924a-739e887f9103" />
 
-
-<br />
 
 ## 📡 수집 대상
 
@@ -103,36 +129,14 @@
 
 <br />
 
-## 📋 목차
+## 🖥️ 서버 사양
 
-### 기본 환경 구축
-* [기본 환경 구축](./basic-environment.md)
+| 구분              | 내용          |
+| --------------- | ----------- |
+| Hypervisor      | VMware ESXi |
+| OS              | ESXi       |
+| vCPU            | 16       |
+| RAM             | 20GB      |
+| Disk            | 250GB       |
 
-### 네트워크 구성
-
-* [VyOS 라우터 구성](./docs/network/vyos-router.md)
-* [임시 NAT용 pfSense 구성](./docs/network/pfsense-nat.md)
-
-### Metric 수집
-
-* [Prometheus-VM1](./docs/prometheus/prometheus-install.md)
-
-### Log 수집
-
-* [Loki-VM3](./docs/loki/loki-install.md)
-
-### Trace 수집
-
-* [Tempo-VM3](./docs/tempo/tempo-install.md)
-
-### Collector 구성
-
-* [Alloy](./docs/alloy/alloy-install.md)
-
-### Dashboard 구성
-
-* [Grafana-VM1](./docs/grafana/grafana-install.md)
-
-### Alert 구성
-
-* [Alertmanager-VM1](./docs/alertmanager/alertmanager-install.md)
+<br />
