@@ -128,7 +128,7 @@
 
 ### Dashboard 구성
 
-* [Grafana-VM1(./docs/grafana/grafana-install.md)
+* [Grafana-VM1](./docs/grafana/grafana-install.md)
 
 ### Alert 구성
 
