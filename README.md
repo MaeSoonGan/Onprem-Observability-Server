@@ -105,6 +105,9 @@
 
 ## 📋 목차
 
+### 기본 환경 구축
+* [기본 환경 구축](./docs/network/vyos-router.md)
+
 ### 네트워크 구성
 
 * [VyOS 라우터 구성](./docs/network/vyos-router.md)
