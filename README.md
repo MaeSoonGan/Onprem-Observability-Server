@@ -23,7 +23,7 @@
 
 ### 네트워크 구성
 
-* [VyOS 라우터 구성](./docs/network/vyos-router.md)
+* [VyOS 라우터 구성](./vyos.md)
 * [임시 NAT용 pfSense 구성](./docs/network/pfsense-nat.md)
 
 ### Metric 수집
