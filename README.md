@@ -28,7 +28,7 @@
 
 ### Metric 수집
 
-* [Prometheus-VM1](./docs/prometheus/prometheus-install.md)
+* [Prometheus-VM1](./prometheus.md)
 
 ### Log 수집
 
