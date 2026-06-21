@@ -36,19 +36,19 @@
 
 ### Trace 수집
 
-* [Tempo-VM3](./docs/tempo/tempo-install.md)
+* [Tempo-VM3](./tempo.md)
 
 ### Collector 구성
 
-* [Alloy](./docs/alloy/alloy-install.md)
+* [Alloy](./alloy.md)
 
 ### Dashboard 구성
 
-* [Grafana-VM1](./docs/grafana/grafana-install.md)
+* [Grafana-VM1](./grafana.md)
 
 ### Alert 구성
 
-* [Alertmanager-VM1](./docs/alertmanager/alertmanager-install.md)
+* [Alertmanager-VM1](./alertmanager.md)
 
 </br>
 
